@@ -1,0 +1,60 @@
+.sobre {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 30px;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.foto img {
+  width: 130px;
+  height: auto;
+}
+
+.apresentacao {
+  margin-top: 15px;
+  text-align: left;
+  background-color: #e0e0e0;
+  padding: 10px 15px;
+  border-radius: 6px;
+}
+
+.biografia {
+  margin-top: 0;
+  flex: 1;
+  border-left: 1px solid #ccc;
+  padding-left: 30px;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.biografia h2 {
+  margin: 0 0 15px 0;
+}
+
+.biografia p {
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+.contato {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.contato a {
+  color: #0000EE;
+  text-decoration: none;
+}
+
+.contato a:hover {
+  text-decoration: underline;
+}
