@@ -1,0 +1,41 @@
+.caixa-principal {
+  background-color: #d0d0d0;
+  padding: 20px;
+}
+
+.caixa-principal h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+.caixa-principal h3 {
+  margin: 25px 0 10px 0;
+  font-size: 16px;
+}
+
+.curso {
+  background-color: #e0e0e0;
+  padding: 15px;
+  margin-bottom: 12px;
+}
+
+.curso h4 {
+  margin: 0 0 8px 0;
+  font-size: 15px;
+}
+
+.curso p {
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.status-andamento {
+  color: #856404;
+  font-weight: 500;
+}
+
+.status-concluido {
+  color: #155724;
+  font-weight: 500;
+}
