@@ -6,7 +6,7 @@ export const routes: Routes = [
     {
         path:'sobre',
         loadComponent: ()=>
-            import('./features/sobre/sobre').then(m => m.Sobre)
+            import('./features/sobre/sobre').then(m => m.SobreComponent)
     },
     {
         path:'objetivo-profissional',

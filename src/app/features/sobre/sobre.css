@@ -1,60 +1,43 @@
-.sobre {
+.caixa-principal {
   display: flex;
-  align-items: flex-start;
-  gap: 40px;
-  padding: 30px;
-}
-
-.foto {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.foto img {
-  width: 130px;
-  height: auto;
-}
-
-.apresentacao {
-  margin-top: 15px;
-  text-align: left;
-  background-color: #e0e0e0;
-  padding: 10px 15px;
-  border-radius: 6px;
-}
-
-.biografia {
-  margin-top: 0;
-  flex: 1;
-  border-left: 1px solid #ccc;
-  padding-left: 30px;
-  background-color: #e0e0e0;
+  gap: 20px;
+  background-color: #d0d0d0;
   padding: 20px;
-  border-radius: 6px;
 }
 
-.biografia h2 {
-  margin: 0 0 15px 0;
-}
-
-.biografia p {
-  margin: 0 0 20px 0;
-  line-height: 1.5;
-}
-.contato {
-  margin-top: 20px;
+.lado-esquerdo {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
+}
+
+.lado-esquerdo img {
+  width: 160px;
+  display: block;
+}
+
+.caixa-texto {
+  background-color: #e0e0e0;
+  padding: 12px;
   font-size: 14px;
 }
 
-.contato a {
-  color: #0000EE;
-  text-decoration: none;
+.lado-direito {
+  flex: 1;
 }
 
-.contato a:hover {
+.lado-direito h3 {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+}
+
+.lado-direito p {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+a {
+  color: #0000ee;
   text-decoration: underline;
 }

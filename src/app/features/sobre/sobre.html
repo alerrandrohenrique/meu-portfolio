@@ -1,18 +1,24 @@
-<section class="sobre">
-  <div class="foto">
- <img src="alerrandro.jpeg" alt="Foto de Alerrandro Henrique">
-    <p class="apresentacao">Prazer em conhecê-lo, me chamo Alerrandro Henrique.</p>
-  </div>
+<section class="caixa-principal">
 
-  <div class="biografia">
-    <h2>Sobre mim:</h2>
-    <p>Sou estudante da instituição Senai do Amapá de Macapá, sou muito curioso na área da tecnologia, estou fazendo e aprendendo programação no curso programador full stack.</p>
-    <p>Fiz e concluí cursos de Redes e computadores da área da TI e atualmente priorizando a partir da programação lógica e funcional.</p>
-
-    <div class="contato">
-      <a href="mailto:alerrandro.h.santos@aluno.senai.br">📧 alerrandro.h.santos@aluno.senai.br</a>
-      <a href="https://github.com/alerrandrohenrique" target="_blank">🐙 GitHub</a>
-      <a href="https://www.linkedin.com/in/alerrandro-queiroz-b617b23b5/" target="_blank">💼 LinkedIn</a>
+  <!-- Lado esquerdo -->
+  <div class="lado-esquerdo">
+    <img src="alerrandro.jpeg" alt="Foto de Alerrandro Henrique">
+    <div class="caixa-texto">
+      Prazer em conhecê-lo, me chamo Alerrandro Henrique.
     </div>
   </div>
+
+  <!-- Lado direito -->
+  <div class="lado-direito">
+    <h3>Sobre mim:</h3>
+
+    <p>Sou estudante da instituição Senai do Amapá de Macapá, sou muito curioso na área da tecnologia, estou fazendo e aprendendo programação no curso programador full stack.</p>
+
+    <p>Fiz e concluí cursos de Redes e computadores da área da TI e atualmente priorizando a partir da programação lógica e funcional.</p>
+
+    <p>📧 E-mail: <a href="mailto:alerrandro.h.santos@aluno.senai.br">{{ email }}</a></p>
+    <p>💻 <a [href]="githubUrl" target="_blank" rel="noopener noreferrer">{{ githubTexto }}</a></p>
+    <p>💼 <a [href]="linkedinUrl" target="_blank" rel="noopener noreferrer">{{ linkedinTexto }}</a></p>
+  </div>
+
 </section>
