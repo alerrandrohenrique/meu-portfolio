@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
-  imports: [],
   selector: 'app-objetivo-profissional',
-  styleUrl: './objetivo-profissional.css',
   templateUrl: './objetivo-profissional.html',
+  styleUrls: ['./objetivo-profissional.css']
 })
-export class ObjetivoProfissional {}
+export class ObjetivoProfissionalComponent {
+
+  constructor() { }
+
+}

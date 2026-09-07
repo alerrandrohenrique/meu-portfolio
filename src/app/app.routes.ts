@@ -11,7 +11,7 @@ export const routes: Routes = [
     {
         path:'objetivo-profissional',
         loadComponent: ()=>
-            import('./features/objetivo-profissional/objetivo-profissional').then(m => m.ObjetivoProfissional)
+            import('./features/objetivo-profissional/objetivo-profissional').then(m => m.ObjetivoProfissionalComponent)
     },
     {
           path:'formacao-academica',
