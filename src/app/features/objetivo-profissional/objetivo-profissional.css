@@ -1,79 +1,58 @@
 .objetivo-profissional {
-  padding: 30px;
-  font-family: Inter, sans-serif;
-  max-width: 1100px;
+  width: 1360px;
   margin: 0 auto;
+  padding: 20px 0;
 }
 
 .cabecalho {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 25px;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
 .icone-alvo {
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
 }
 
 .cabecalho h2 {
-  margin: 0;
   font-size: 24px;
-  font-weight: 600;
-  color: #1a1a1a;
+  margin: 0;
 }
 
-.caixa-texto {
-  background-color: #e0e0e0;
-  padding: 30px;
-  border-radius: 12px;
-  margin-bottom: 30px;
-}
-
-.caixa-texto p {
-  margin: 0 0 15px 0;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #2d2d2d;
-}
-
-.caixa-texto p:last-child {
-  margin-bottom: 0;
+.caixa-grande {
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  padding: 25px 30px;
 }
 
 .jornada {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 10px;
+  width: 100%;
 }
 
 .item-jornada {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
-  background-color: #e0e0e0;
-  padding: 12px 16px;
-  border-radius: 8px;
-  min-width: 110px;
-  text-align: center;
+  gap: 5px;
 }
 
 .item-jornada .icone {
-  width: 32px;
-  height: 32px;
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
 }
 
 .item-jornada span {
-  font-size: 14px;
-  color: #333;
+  font-size: 13px;
+  text-align: center;
 }
 
 .seta {
-  font-size: 18px;
-  color: #666;
-  font-weight: 500;
+  font-size: 16px;
+  color: #333;
 }
