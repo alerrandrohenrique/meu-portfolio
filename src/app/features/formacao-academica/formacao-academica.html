@@ -8,16 +8,6 @@
     <p class="status-andamento">🟡 {{ cursoPrincipal.status }}</p>
   </div>
 
-  <!-- Ensino Fundamental e Médio -->
-  <h3>Ensino Escolar</h3>
-  @for (item of ensinoEscolar; track item.nome) {
-    <div class="curso">
-      <h4>{{ item.nome }}</h4>
-      <p>{{ item.instituicao }}</p>
-      <p class="status-concluido">✅ {{ item.status }}</p>
-    </div>
-  }
-
   <!-- Cursos concluídos no SENAI -->
   <h3>Cursos Profissionalizantes</h3>
   @for (curso of cursosSENAI; track curso.nome) {

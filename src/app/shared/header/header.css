@@ -1,7 +1,7 @@
 .navbar {
   min-height: 65px;
   background-color: #224196;
-  border: 1px solid #662485;
+  border-bottom: 1px solid #662485;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -29,12 +29,12 @@
 }
 
 .links a:hover {
-  color: #90EE90;
+  color: #00EE99;
   text-decoration: underline;
 }
 
 .links a.ativo {
   font-weight: 700;
-  color: #90EE90;
+  color: #00EE99;
   text-decoration: underline;
 }

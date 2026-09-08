@@ -1,0 +1,51 @@
+.habilidades {
+  width: 1360px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.icone-habilidades {
+  width: 40px;
+  height: 40px;
+}
+
+.cabecalho h2 {
+  font-size: 22px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.caixa-principal {
+  background-color: #d9d9d9;
+  padding: 25px 30px;
+  border-radius: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.caixa-principal h3 {
+  font-size: 16px;
+  margin: 20px 0 10px 0;
+  font-weight: bold;
+}
+
+.caixa-principal h3:first-child {
+  margin-top: 0;
+}
+
+.caixa-principal ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.caixa-principal li {
+  font-size: 15px;
+  padding: 4px 0;
+}
